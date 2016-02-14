@@ -20,7 +20,7 @@ var ws = new WebSocketServer({
 //TODO: exception handling
 ws.on('request', function(request) {
 
-	var conn = request.accept(null, "*");
+	var conn = request.accept('remote-canvas', "*");
 	conn.on("message", function(msg) {
 		var datamsg = JSON.parse(msg.utf8Data);
 		switch(datamsg.code) {
