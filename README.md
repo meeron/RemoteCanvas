@@ -1,6 +1,6 @@
 # Remote Canvas #
 
-This is and example project for remote drawing on canvas using FabricJS nad WebSockets
+This is an example project for remote drawing on canvas using FabricJS nad WebSockets
 
 ### Installation ###
 
