@@ -1,0 +1,1 @@
+Example project for remote drawing on canvas

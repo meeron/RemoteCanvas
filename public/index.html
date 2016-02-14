@@ -1,0 +1,33 @@
+<html>
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+</head>
+<body>
+<h1>Remote Canvas</h1>
+	<div class="control-buttons">
+		<button id="presenter" type="button" class="btn btn-primary">Presenter</button>
+		<button id="viewer" type="button" class="btn btn-success">Viewer</button>
+		<button id="stop" type="button" class="btn btn-danger">Stop</button>
+	</div>
+	<div class="status-wrapper">
+		<label>Status:</label>
+		<span id="status" class="label label-danger">Disconnected</span>
+		<label>Position:</label>
+		<span id="position"></span>
+	</div>
+	<div class="canvas-wrapper">
+		<canvas id="workspace"></canvas>
+	</div>
+	<script type="text/javascript" src="/js/remotecanvas.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body {
+	padding-left: 20px;
+}
+canvas {
+	border: solid 1px black;
+	width: 500px;
+	height: 500px;
+}
+.control-buttons {
+	margin-bottom: 10px;
+}
+.status-wrapper {
+	margin-bottom: 20px;
+}
